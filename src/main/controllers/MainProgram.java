@@ -1,21 +1,12 @@
 package main.controllers;
 
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Scanner;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 
-import main.modelos.DAL.Factura.Factura;
-import main.modelos.DAL.Factura.FacturaImpl;
-import main.modelos.DAL.Factura.FacturaService;
-import main.modelos.DAL.TipoCombustible.TipoCombustible;
-import main.modelos.DTOs.FacturaDTO;
-import main.modelos.DTOs.LlenadoDTO;
-import main.modelos.DTOs.RepostajeNormalDTO;
-import main.modelos.Logica.Consultas;
+
 import main.modelos.Logica.Ejecucion.EjecucionImpl;
 import main.modelos.Logica.Ejecucion.EjecucionService;
 import main.modelos.Logica.Recursos.RecursosImpl;
