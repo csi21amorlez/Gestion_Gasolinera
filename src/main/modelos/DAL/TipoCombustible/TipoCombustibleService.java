@@ -2,8 +2,6 @@ package main.modelos.DAL.TipoCombustible;
 
 import java.util.ArrayList;
 
-import main.modelos.DTOs.TipoCombustibleDTO;
-
 // TODO: Auto-generated Javadoc
 /**
  * The Interface TipoCombustibleService.

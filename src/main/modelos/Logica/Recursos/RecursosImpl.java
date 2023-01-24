@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 public class RecursosImpl implements RecursosService {
 
 	public void menu() {
-		System.out.println("\n\n\n\n\n\n\t\t\t╔══════════════════════════════════════╗");
-		System.out.println("\t\t\t║ Opciones de la Gasolinera                  ║");
+		System.out.println("\n\n\n\n\n\n\t\t\t╔════════════════════════════════════════════╗");
+		System.out.println("\t\t\t║ Seleccione una operacion                   ║");
 		System.out.println("\t\t\t╠════════════════════════════════════════════╣");
-		System.out.println("\t\t\t║ 1) Respostaje con simple                   ║");
+		System.out.println("\t\t\t║ 1) Respostaje simple (Sin factura)         ║");
 		System.out.println("\t\t\t║ 2) Repostaje con Factura                   ║");
 		System.out.println("\t\t\t║ 3) Ver todos los repostajes                ║");
 		System.out.println("\t\t\t║ 4) Importe total del combustible vendido   ║");

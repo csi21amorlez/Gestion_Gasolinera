@@ -1,15 +1,11 @@
 package main.modelos.DAL.TipoCombustible;
 
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.UUID;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Component;
-
-import main.modelos.DTOs.TipoCombustibleDTO;
 
 @Component
 public class TipoCombustibleImpl implements TipoCombustibleService {

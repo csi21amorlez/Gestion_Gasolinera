@@ -1,16 +1,11 @@
 package main.modelos.DAL.Llenado;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
-import main.modelos.DAL.TipoCombustible.TipoCombustible;
 
 // TODO: Auto-generated Javadoc
 /**
