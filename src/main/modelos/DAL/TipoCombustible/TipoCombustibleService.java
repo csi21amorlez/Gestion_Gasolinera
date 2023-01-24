@@ -12,7 +12,7 @@ public interface TipoCombustibleService {
 	/**
 	 * Insertar registro.
 	 *
-	 * @param tc the tc
+	 * @param TipoCombustible tipo
 	 */
 	public void insertarRegistro(TipoCombustible tc);
 
@@ -26,7 +26,7 @@ public interface TipoCombustibleService {
 	/**
 	 * Find by id.
 	 *
-	 * @return the tipo combustible
+	 * @return TipoCombustible tipo
 	 */
 	public TipoCombustible findById(int id);
 

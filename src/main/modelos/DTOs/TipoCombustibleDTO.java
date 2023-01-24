@@ -72,9 +72,9 @@ public class TipoCombustibleDTO {
 	/**
 	 * Instantiates a new tipo combustible DTO.
 	 *
-	 * @param tipo   the tipo
-	 * @param precio the precio
-	 * @param desc   the desc
+	 * @param tipo   Tipo del combustible, hace referencia a la id
+	 * @param precio Precio del combustible
+	 * @param desc   Nombre comercial de combustible
 	 */
 	public TipoCombustibleDTO(int tipo, double precio, String desc) {
 		super();

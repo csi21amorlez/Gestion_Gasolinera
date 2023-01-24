@@ -18,26 +18,27 @@ import javax.persistence.TemporalType;
 public class Factura {
 
 	
-/** The md uuid. */
+
 //	ATRIBUTOS
+	/** Md_uuid que en este caso funciona como id. */
 	@Id
 	@Column(name = "md_uuid")
 	private String mdUuid;
 	
-	/** The md date. */
+	/** Fecha y hora de la creacion en base de datos. */
 	@Column(name = "md_date")
 	@Temporal(TemporalType.TIMESTAMP)
 	private Calendar mdDate;
 	
-	/** The importe. */
+	/** El importe del repostaje. */
 	@Column(name="importe")
 	private double importe;
 	
-	/** The dni cliente. */
+	/** Dni del cliente. */
 	@Column(name="dni_cliente")
 	private String dniCliente;
 	
-	/** The matricula vehiculo. */
+	/** Matricula del vehiculo. */
 	@Column(name="matricula_vehiculo")
 	private String matriculaVehiculo;
 	

@@ -11,21 +11,21 @@ import main.modelos.DTOs.LlenadoDTO;
 public interface LlenadoService {
 
 	/**
-	 * Insertar registro.
+	 * Método de insercion de Llenados en base de datos.
 	 *
-	 * @param llenado the llenado
+	 * @param Llenado llenado
 	 */
 	public void insertarRegistro(Llenado llenado);
 
 	/**
-	 * Buscar todos.
+	 * Método de obtencion de todos los registros en base de datos.
 	 *
-	 * @return the array list
+	 * @return ArrayList<Llenado>
 	 */
 	public ArrayList<Llenado> buscarTodos();
 
 	/**
-	 * Eliminar ultimo registro.
+	 * Método de eliminacion del ultimo registro insertado en base de datos.
 	 */
 	public void eliminarUltimoRegistro();
 
