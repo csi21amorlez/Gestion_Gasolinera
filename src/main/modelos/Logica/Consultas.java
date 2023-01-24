@@ -30,7 +30,6 @@ public class Consultas {
 	ToDtoImpl toDto;
 	@Autowired
 	DtoToImpl dtoTo;
-	
 
 	@Transactional
 	public void insertarFactura(FacturaDTO registro) {
